@@ -1,3 +1,28 @@
-body {
-  margin: 0;
+.Jalali-birthdate-picker {
+    direction: ltr;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+
+.Jalali-birthdate-picker select {
+    direction: rtl;
+    padding: 7px 11px;
+    border: 1px solid rgb(217, 217, 217);
+}
+
+.Jalali-birthdate-picker select.year-select-field{
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.Jalali-birthdate-picker select.month-select-field{
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.Jalali-birthdate-picker select.day-select-field{
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
 }
